@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+ char ASCIIvalue;
+ cout << "Enter the alphabet:";
+ cin>> ASCIIvalue;
+ int value = ASCIIvalue;
+ cout << value << "\n";
+}
+
+
